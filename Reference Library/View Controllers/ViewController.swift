@@ -22,6 +22,22 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Custom Methods
+    func presentReference(for term: String) {
+        if ReferenceLibraryViewController.dictionaryHasDefinition(forTerm: term) {
+            let reference = ReferenceLibraryViewController(term: term)
+            reference.delegate = self
+            present(reference, animated: true)
+        }
+    }
+    
+    // MARK: - Actions
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        presentAlert()
+    }
+}
+
+// MARK: - ViewControllerDelegate
+extension ViewController: ViewControllerDelegate {
     func presentAlert() {
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         
@@ -35,19 +51,11 @@ class ViewController: UIViewController {
             alert.addAction(action)
         }
         
+        if !button.isHidden {
+            let cancel = UIAlertAction(title: "Cancel", style: .cancel)
+            alert.addAction(cancel)
+        }
+        
         present(alert, animated: true)
     }
-    
-    func presentReference(for term: String) {
-        if UIReferenceLibraryViewController.dictionaryHasDefinition(forTerm: term) {
-            let reference = UIReferenceLibraryViewController(term: term)
-            present(reference, animated: true)
-        }
-    }
-    
-    // MARK: - Actions
-    @IBAction func buttonTapped(_ sender: UIButton) {
-        presentAlert()
-    }
 }
-
