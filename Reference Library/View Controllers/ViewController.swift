@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
     
     // MARK: - Outlets
     @IBOutlet var button: UIButton!
+    @IBOutlet var webView: WKWebView!
     
     // MARK: - Properties
     let terms = ["Apple", "Banana", "Pear"]
@@ -57,5 +59,9 @@ extension ViewController: ViewControllerDelegate {
         }
         
         present(alert, animated: true)
+    }
+    
+    func updateWebView(with html: String) {
+        webView.loadHTMLString(html, baseURL: nil)
     }
 }

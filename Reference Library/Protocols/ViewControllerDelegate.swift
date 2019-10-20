@@ -8,4 +8,5 @@
 
 protocol ViewControllerDelegate {
     func presentAlert()
+    func updateWebView(with html: String)
 }
