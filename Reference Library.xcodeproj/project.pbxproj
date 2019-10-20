@@ -15,6 +15,7 @@
 		6942B0E7235C6A3C00F84326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6942B0E5235C6A3C00F84326 /* LaunchScreen.storyboard */; };
 		6942B0EF235C780600F84326 /* ReferenceLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942B0EE235C780600F84326 /* ReferenceLibraryViewController.swift */; };
 		6942B0F3235C79E600F84326 /* ViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942B0F2235C79E600F84326 /* ViewControllerDelegate.swift */; };
+		6942B0F9235C7C5500F84326 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6942B0F8235C7C5500F84326 /* Screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6942B0E8235C6A3C00F84326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6942B0EE235C780600F84326 /* ReferenceLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceLibraryViewController.swift; sourceTree = "<group>"; };
 		6942B0F2235C79E600F84326 /* ViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDelegate.swift; sourceTree = "<group>"; };
+		6942B0F8235C7C5500F84326 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				6942B0F6235C7A2F00F84326 /* App */,
-				6942B0F5235C7A2400F84326 /* Delegates */,
 				6942B0F1235C79D000F84326 /* Protocols */,
 				6942B0F4235C7A1100F84326 /* Storyboards */,
 				6942B0F0235C781800F84326 /* View Controllers */,
@@ -107,10 +108,20 @@
 		6942B0F6235C7A2F00F84326 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				6942B0E3235C6A3C00F84326 /* Assets.xcassets */,
+				6942B0F5235C7A2400F84326 /* Delegates */,
+				6942B0F7235C7C3400F84326 /* Resources */,
 				6942B0E8235C6A3C00F84326 /* Info.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		6942B0F7235C7C3400F84326 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6942B0E3235C6A3C00F84326 /* Assets.xcassets */,
+				6942B0F8235C7C5500F84326 /* Screenshot.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 				6942B0E7235C6A3C00F84326 /* LaunchScreen.storyboard in Resources */,
 				6942B0E4235C6A3C00F84326 /* Assets.xcassets in Resources */,
 				6942B0E2235C6A3700F84326 /* Main.storyboard in Resources */,
+				6942B0F9235C7C5500F84326 /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
