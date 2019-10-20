@@ -15,7 +15,8 @@
 		6942B0E7235C6A3C00F84326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6942B0E5235C6A3C00F84326 /* LaunchScreen.storyboard */; };
 		6942B0EF235C780600F84326 /* ReferenceLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942B0EE235C780600F84326 /* ReferenceLibraryViewController.swift */; };
 		6942B0F3235C79E600F84326 /* ViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942B0F2235C79E600F84326 /* ViewControllerDelegate.swift */; };
-		6942B0FB235C8A0A00F84326 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6942B0FA235C8A0A00F84326 /* Screenshot.png */; };
+		6942B0FB235C8A0A00F84326 /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6942B0FA235C8A0A00F84326 /* Screenshot1.png */; };
+		6942B0FD235C8B1900F84326 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6942B0FC235C8B1900F84326 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +30,8 @@
 		6942B0E8235C6A3C00F84326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6942B0EE235C780600F84326 /* ReferenceLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceLibraryViewController.swift; sourceTree = "<group>"; };
 		6942B0F2235C79E600F84326 /* ViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDelegate.swift; sourceTree = "<group>"; };
-		6942B0FA235C8A0A00F84326 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		6942B0FA235C8A0A00F84326 /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
+		6942B0FC235C8B1900F84326 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		6942B0CE235C6A3700F84326 = {
 			isa = PBXGroup;
 			children = (
+				6942B0FC235C8B1900F84326 /* README.md */,
 				6942B0D9235C6A3700F84326 /* Reference Library */,
 				6942B0D8235C6A3700F84326 /* Products */,
 			);
@@ -119,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				6942B0E3235C6A3C00F84326 /* Assets.xcassets */,
-				6942B0FA235C8A0A00F84326 /* Screenshot.png */,
+				6942B0FA235C8A0A00F84326 /* Screenshot1.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -184,8 +187,9 @@
 			files = (
 				6942B0E7235C6A3C00F84326 /* LaunchScreen.storyboard in Resources */,
 				6942B0E4235C6A3C00F84326 /* Assets.xcassets in Resources */,
+				6942B0FD235C8B1900F84326 /* README.md in Resources */,
 				6942B0E2235C6A3700F84326 /* Main.storyboard in Resources */,
-				6942B0FB235C8A0A00F84326 /* Screenshot.png in Resources */,
+				6942B0FB235C8A0A00F84326 /* Screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
